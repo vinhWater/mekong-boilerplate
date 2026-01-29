@@ -1,0 +1,839 @@
+{
+  "HomePage": {
+    "title": "Lorem Ipsum Dolor Sit Amet Consectetur",
+    "description": "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    "getStarted": "🚀 Get Started",
+    "learnMore": "Learn More",
+    "trial": "Free trial available",
+    "noFees": "No setup fees",
+    "cancel": "Cancel anytime",
+    "officialApi": "Verified Partner",
+    "heroVisual": {
+      "revenue": "Revenue: $XX,XXX 🚀",
+      "sync": "Status: Connected",
+      "security": "Secure Connection",
+      "product": "Premium Product"
+    },
+    "Features": {
+      "title": "What can we do?",
+      "description": "Powerful features designed to help you succeed",
+      "secureIntegration": {
+        "title": "Secure Integration",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore."
+      },
+      "multiShop": {
+        "title": "Multi-Account Support",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Manage everything from one dashboard."
+      },
+      "staffPermissions": {
+        "title": "Team Permissions",
+        "description": "Lorem ipsum dolor sit amet, secure access control for your team members."
+      },
+      "aiGraphics": {
+        "title": "AI-Powered Tools",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, automated design generation."
+      },
+      "bulkUpload": {
+        "title": "Bulk Operations",
+        "description": "Lorem ipsum dolor sit amet, save time with batch processing capabilities."
+      },
+      "inventorySync": {
+        "title": "Inventory Sync",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit in real-time."
+      },
+      "analytics": {
+        "title": "Reports & Analytics",
+        "description": "Lorem ipsum dolor sit amet, detailed insights for your business performance."
+      },
+      "smartCrawling": {
+        "title": "Smart Extraction",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit automatically."
+      },
+      "automatedListing": {
+        "title": "Automated Listing",
+        "description": "Lorem ipsum dolor sit amet using custom templates and schedules."
+      },
+      "orderManagement": {
+        "title": "Order Management",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit with seamless integration."
+      },
+      "templateSystem": {
+        "title": "Template System",
+        "description": "Lorem ipsum dolor sit amet with reusable components."
+      }
+    },
+    "WhyTokExpert": {
+      "title": "Why Choose Us?",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "badge": "TRUSTED SOLUTION",
+      "pain1": {
+        "title": "Problem One",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      },
+      "pain2": {
+        "title": "Problem Two",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      },
+      "pain3": {
+        "title": "Problem Three",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      }
+    },
+    "TargetAudience": {
+      "title": "Who is this for?",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "badge": "TARGET AUDIENCE",
+      "solo": {
+        "title": "Individual Users",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+      },
+      "teams": {
+        "title": "Teams & Growth",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+      },
+      "enterprise": {
+        "title": "Enterprise & Partners",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+      }
+    },
+    "Pricing": {
+      "title": "Simple & Transparent Pricing",
+      "description": "Start for free, upgrade as you grow. No hidden fees.",
+      "forever": "/lifetime",
+      "monthStore": "/account/month",
+      "Free": {
+        "title": "Free",
+        "subtitle": "Get started today",
+        "features": {
+          "beginners": "Perfect for beginners",
+          "unlimited": "Connect unlimited accounts",
+          "basic": "Access basic features",
+          "noCard": "No credit card required"
+        },
+        "cta": "Start for Free"
+      },
+      "Creator": {
+        "title": "Creator",
+        "tag": "Most Popular",
+        "subtitle": "Best for active users",
+        "features": {
+          "traffic": "For users with daily activity",
+          "upload": "Upload up to 100 items/month",
+          "fulfill": "Process up to 300 orders/month",
+          "automation": "Access automation tools",
+          "bulk": "Bulk operations & AI features"
+        },
+        "recommendation": "🎯 Recommended for 95% of users",
+        "cta": "Get Creator Plan"
+      },
+      "Growth": {
+        "title": "Growth",
+        "subtitle": "Scale without limits",
+        "features": {
+          "noLimits": "All Creator features, unlimited",
+          "dailyOrders": "Ideal for high-volume operations",
+          "scale": "Scale easily with no limits",
+          "support": "Priority support"
+        },
+        "switch": "💬 Switch to Growth anytime you need",
+        "cta": "Upgrade when Ready"
+      },
+      "Enterprise": {
+        "title": "Enterprise",
+        "tag": "Enterprise",
+        "subtitle": "Customized for partners",
+        "price": "$X",
+        "priceDetail": "/account/month (for 200+ accounts)",
+        "features": {
+          "title1": "Custom Solutions",
+          "api": "Custom API, SLA, advanced analytics",
+          "title2": "Priority Support",
+          "support": "Dedicated support & account manager"
+        },
+        "cta": "Contact Sales"
+      }
+    },
+    "OurCommitment": {
+      "badge": "OUR COMMITMENT",
+      "title": "We're Users Just Like You",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.",
+      "visual": {
+        "text": "Real Users"
+      },
+      "point1": {
+        "title": "Real Experience from Insiders",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      },
+      "point2": {
+        "title": "Continuous Improvement",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      },
+      "point3": {
+        "title": "Growing Together",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore."
+      },
+      "quote": "We build the tool we want to use ourselves. If it's not good enough for us, it won't be good enough for you.",
+      "author": "Our Team - Users & Builders"
+    },
+    "CTA": {
+      "title": "Don't Just Use.\\nBuild Your Success.",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Get started today.",
+      "button": "Try It Free"
+    }
+  },
+  "AboutPage": {
+    "metadata": {
+      "title": "About Us | Lorem Ipsum Platform",
+      "description": "Learn about our team - passionate about technology and helping users succeed."
+    },
+    "hero": {
+      "badge": "About Us",
+      "title": "Who We Are?",
+      "subtitle": "Real users building tools for ourselves and the community",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. We understand your needs because we've been there."
+    },
+    "story": {
+      "title": "Our Story",
+      "subtitle": "From challenges to solutions",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.\\n\\nUt enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.\\n\\nDuis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur:\\n• Sed ut perspiciatis unde omnis\\n• Nemo enim ipsam voluptatem\\n• At vero eos et accusamus\\n• Temporibus autem quibusdam"
+    },
+    "mission": {
+      "title": "Mission",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    },
+    "vision": {
+      "title": "Vision",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    },
+    "values": {
+      "title": "Core Values",
+      "subtitle": "The principles guiding our decisions",
+      "customerFirst": {
+        "title": "Customer First",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+      },
+      "innovation": {
+        "title": "Continuous Innovation",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+      },
+      "integrity": {
+        "title": "Transparency & Honesty",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+      },
+      "excellence": {
+        "title": "Superior Quality",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+      },
+      "growth": {
+        "title": "Growth Mindset",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+      },
+      "passion": {
+        "title": "Passion for Work",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+      }
+    },
+    "whyChooseUs": {
+      "title": "Why Choose Us?",
+      "subtitle": "The differences that make us special",
+      "point1": {
+        "title": "Built by Real Users",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt."
+      },
+      "point2": {
+        "title": "Verified Partner - Absolutely Safe",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt."
+      },
+      "point3": {
+        "title": "Dedicated 24/7 Support",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt."
+      }
+    },
+    "cta": {
+      "title": "Ready to Start Your Journey?",
+      "description": "Join thousands trusting our platform for success.",
+      "button": "Try It Free",
+      "note": "No credit card required • Cancel anytime"
+    }
+  },
+  "ContactSupport": {
+    "metadata": {
+      "title": "Contact Support | Lorem Ipsum Platform",
+      "description": "Contact our support team. We're ready to help with any questions."
+    },
+    "hero": {
+      "badge": "Customer Support",
+      "title": "Contact Support",
+      "subtitle": "We're here to help you",
+      "description": "Send us your request and we'll respond within 24 hours. Or contact us directly through the channels below."
+    },
+    "contactMethods": {
+      "title": "Contact Channels",
+      "subtitle": "Choose the channel that works best for you",
+      "email": {
+        "title": "Email",
+        "description": "Send us an email",
+        "value": "contact@example.com",
+        "cta": "Send Email"
+      },
+      "messenger": {
+        "title": "Messenger",
+        "description": "Chat via Messenger",
+        "cta": "Open Messenger"
+      },
+      "zalo": {
+        "title": "Chat",
+        "description": "Chat with us",
+        "cta": "Open Chat"
+      }
+    },
+    "form": {
+      "title": "Submit Support Request",
+      "subtitle": "Fill in the information below and we'll get back to you soon",
+      "name": {
+        "label": "Full Name",
+        "placeholder": "John Doe"
+      },
+      "email": {
+        "label": "Email",
+        "placeholder": "email@example.com"
+      },
+      "subject": {
+        "label": "Subject",
+        "placeholder": "What do you need help with?"
+      },
+      "message": {
+        "label": "Message",
+        "placeholder": "Describe your issue in detail...",
+        "maxLength": "Maximum 1000 characters"
+      },
+      "submit": "Submit Request",
+      "submitting": "Submitting..."
+    },
+    "validation": {
+      "nameRequired": "Please enter your name",
+      "emailRequired": "Please enter your email",
+      "emailInvalid": "Invalid email address",
+      "subjectRequired": "Please enter a subject",
+      "messageRequired": "Please enter your message",
+      "messageMaxLength": "Message must not exceed 1000 characters"
+    },
+    "messages": {
+      "success": "Thank you for contacting us! We'll respond within 24 hours.",
+      "error": "An error occurred. Please try again later.",
+      "rateLimitExceeded": "You've sent too many requests. Please try again in 24 hours."
+    },
+    "businessHours": {
+      "title": "24/7 Support",
+      "description": "We're here to help you anytime.",
+      "note": "Send us your request and we'll respond as soon as possible."
+    }
+  },
+  "Header": {
+    "getStarted": "Try It Free",
+    "menu": {
+      "Home": "Home",
+      "Features": "Features",
+      "Pricing": "Pricing",
+      "SellerCenter": "Dashboard",
+      "UserGuide": "User Guide",
+      "About": "About",
+      "Blog": "Blog",
+      "Support": "Support",
+      "Pages": "Pages",
+      "AboutPage": "About Page",
+      "ContactPage": "Contact Page",
+      "BlogGridPage": "Blog Grid Page",
+      "BlogSidebarPage": "Blog Sidebar Page",
+      "BlogDetailsPage": "Blog Details Page",
+      "SignInPage": "Sign In Page",
+      "SignUpPage": "Sign Up Page",
+      "ErrorPage": "Error Page"
+    }
+  },
+  "Footer": {
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scale your success with powerful automation.",
+    "copyright": "© 2025-2026 Platform Name. All rights reserved.",
+    "Product": {
+      "title": "Product",
+      "Features": "Features",
+      "Pricing": "Pricing",
+      "Dashboard": "Dashboard"
+    },
+    "Legal": {
+      "title": "Legal",
+      "About": "About Us",
+      "Terms": "Terms of Service",
+      "Refund": "Refund Policy",
+      "Privacy": "Privacy Policy"
+    },
+    "Support": {
+      "title": "Support & Help",
+      "Contact": "Contact Support",
+      "Documentation": "User Guide",
+      "Help": "Help Center"
+    }
+  },
+  "Testimonials": {
+    "title": "What our customers are saying",
+    "subtitle": "Join thousands of successful users who have transformed their business with our platform.",
+    "1": {
+      "name": "Alice Johnson",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "designation": "Business Owner"
+    },
+    "2": {
+      "name": "Bob Smith",
+      "content": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "designation": "Team Lead"
+    },
+    "3": {
+      "name": "Carol Davis",
+      "content": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+      "designation": "Professional User"
+    }
+  },
+  "Video": {
+    "title": "See It In Action",
+    "description": "Watch the video to see how easy it is to automate your workflow with our platform.",
+    "cta": "Watch Demo"
+  },
+  "ContactDialog": {
+    "title": "Choose Contact Method",
+    "messengerDescription": "Chat via Messenger",
+    "zaloDescription": "Chat with us"
+  },
+  "TermsOfService": {
+    "metadata": {
+      "title": "Terms of Service | Platform Name",
+      "description": "Read the Terms of Service for our platform. Understand your rights and responsibilities.",
+      "keywords": "terms of service, user agreement, legal"
+    },
+    "hero": {
+      "title": "Terms of Service",
+      "subtitle": "Welcome to our platform. These terms govern your access and use of our services.",
+      "lastUpdated": "Last Updated: January 2026",
+      "providedBy": "Provided by: Platform Name LLC"
+    },
+    "contact": {
+      "title": "Contact Information",
+      "description": "For any questions regarding these Terms, please contact us at:"
+    },
+    "sections": {
+      "1": {
+        "title": "1. Introduction",
+        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      },
+      "2": {
+        "title": "2. Eligibility",
+        "content": "You must be at least 18 years old or the legal age of majority in your jurisdiction to use our services."
+      },
+      "3": {
+        "title": "3. Account Registration",
+        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. You are responsible for maintaining the confidentiality of your login credentials."
+      },
+      "4": {
+        "title": "4. Subscription Plans & Payment",
+        "content": "We offer both free and paid subscription plans:",
+        "free": {
+          "title": "Free Plan",
+          "description": "Limited features for getting started."
+        },
+        "paid": {
+          "title": "Paid Plans",
+          "description": "Premium plans with monthly or yearly billing."
+        },
+        "billing_label": "Payment Processing:",
+        "billing_value": "Payments are processed securely. All fees are non-refundable unless otherwise stated.",
+        "refund_label": "Refunds & Cancellations:",
+        "refund_value": "See our Refund Policy for details."
+      },
+      "5": {
+        "title": "5. Offline and Maintenance",
+        "p1": "We don't guarantee that our website will be online 100% of the time.",
+        "p2": "We reserve the right to restrict access to the service if necessary.",
+        "p3": "We may perform maintenance and introduce new features from time to time."
+      },
+      "6": {
+        "title": "6. User Responsibilities",
+        "content": "You are solely responsible for:",
+        "list": {
+          "1": "The content you create and share.",
+          "2": "Ensuring compliance with applicable laws.",
+          "3": "Providing accurate information.",
+          "4": "Managing communication with your customers."
+        }
+      },
+      "7": {
+        "title": "7. Integration Disclaimer",
+        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit:",
+        "requirements_label": "Requirements:",
+        "requirements_value": "Valid accounts with third-party providers.",
+        "payment_label": "Payment Responsibility:",
+        "payment_value": "You are responsible for all related fees.",
+        "limitation_label": "Service Limitation:",
+        "limitation_value": "We only facilitate connections, not guarantee results."
+      },
+      "8": {
+        "title": "8. Disclaimer & Limitation of Liability",
+        "warning_label": "Important Disclaimer:",
+        "warning_value": "This platform is a tool designed to assist users. We are not responsible for your business decisions.",
+        "content": "You are solely responsible for:",
+        "list": {
+          "1": "Deciding what to create or sell.",
+          "2": "Complying with platform policies.",
+          "3": "Handling customer communication.",
+          "4": "Ensuring legal compliance."
+        },
+        "scope_label": "Service Scope:",
+        "scope_value": "We provide tools and automation. How you use them is your responsibility.",
+        "footer": "We provide the tools, but how you use them is entirely your responsibility."
+      },
+      "9": {
+        "title": "9. Fair Usage Policy",
+        "content": "You agree to use our platform within reasonable limits. Excessive usage may lead to account suspension."
+      },
+      "10": {
+        "title": "10. Security and Abuse",
+        "content": "You may not use our platform in any way that compromises security or performance."
+      },
+      "11": {
+        "title": "11. Prohibited Use",
+        "content": "You agree not to:",
+        "list": {
+          "1": "Use for any unlawful purpose.",
+          "2": "Violate any regulations or laws.",
+          "3": "Send unauthorized advertising or spam.",
+          "4": "Collect personal information without consent.",
+          "5": "Interfere with platform operation."
+        }
+      },
+      "12": {
+        "title": "12. Intellectual Property",
+        "content": "All content is the property of Platform Name LLC. You may not copy or distribute without permission."
+      },
+      "13": {
+        "title": "13. Termination",
+        "content": "We reserve the right to suspend or terminate your account if you violate these Terms."
+      },
+      "14": {
+        "title": "14. Governing Law",
+        "content": "These Terms are governed by applicable laws."
+      },
+      "15": {
+        "title": "15. Contact",
+        "email": "Email:",
+        "company": "Company: Platform Name LLC"
+      }
+    }
+  },
+  "RefundPolicy": {
+    "metadata": {
+      "title": "Refund Policy | Platform Name",
+      "description": "Learn about our 14-day refund policy and your consumer rights.",
+      "keywords": "refund policy, cancellation, consumer rights, 14-day refund"
+    },
+    "hero": {
+      "title": "Refund Policy",
+      "subtitle": "We offer a 14-day refund window. Your satisfaction is our priority.",
+      "lastUpdated": "Last Updated: January 2026",
+      "providedBy": "Provided by: Platform Name LLC"
+    },
+    "contact": {
+      "title": "Contact Information",
+      "description": "For refund requests or questions about this policy, please contact us at:"
+    },
+    "sections": {
+      "1": {
+        "title": "1. Introduction",
+        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. This policy explains your rights and how to exercise them."
+      },
+      "2": {
+        "title": "2. Consumer Right to Cancel (14-Day Window)",
+        "highlight": "You have 14 days to cancel without giving any reason.",
+        "description": "This right applies from the day after purchase.",
+        "p1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "p2": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+      },
+      "3": {
+        "title": "3. How to Request a Refund",
+        "description": "To exercise your right to cancel:",
+        "methods": {
+          "1": "Email us at contact@example.com with your order details",
+          "2": "Use the model cancellation form in Section 4",
+          "3": "Send us a clear statement through our contact form"
+        },
+        "note_label": "Fast Processing:",
+        "note_value": "We will send you an acknowledgment of receipt without delay."
+      },
+      "4": {
+        "title": "4. Model Cancellation Form",
+        "instruction": "You may use this template:",
+        "form": {
+          "to": "To: Support Team, contact@example.com",
+          "statement": "I hereby give notice that I cancel my purchase:",
+          "ordered_label": "Ordered on:",
+          "ordered_value": "[Insert date]",
+          "name_label": "Name:",
+          "name_value": "[Your full name]",
+          "email_label": "Email:",
+          "email_value": "[Your email address]",
+          "date_label": "Date:",
+          "date_value": "[Today's date]"
+        }
+      },
+      "5": {
+        "title": "5. Effect of Cancellation",
+        "p1": "If you cancel within the 14-day window, we will reimburse all payments received.",
+        "p2": "We will process your reimbursement within 14 days.",
+        "p3": "The reimbursement will use the same payment method you used."
+      },
+      "6": {
+        "title": "6. Exceptions to the Right to Cancel",
+        "content": "Your right to cancel does not apply to digital content you have already started using."
+      },
+      "7": {
+        "title": "7. General Refund Policy",
+        "p1": "Beyond the 14-day window, refund requests are reviewed case-by-case.",
+        "p2": "We may refuse requests in cases of fraud or abuse.",
+        "note_label": "Your Consumer Rights:",
+        "note_value": "This policy does not affect your statutory rights as a consumer."
+      },
+      "8": {
+        "title": "8. Sales Tax Refund Policy",
+        "p1": "If you were charged sales tax and are registered, you may be entitled to a refund.",
+        "p2": "Contact us within 60 days of purchase to request a tax refund.",
+        "p3": "Requests after 60 days will not be processed."
+      },
+      "9": {
+        "title": "9. Contact Information",
+        "email": "Email:",
+        "company": "Company: Platform Name LLC"
+      }
+    }
+  },
+  "PrivacyPolicy": {
+    "metadata": {
+      "title": "Privacy Policy | Platform Name",
+      "description": "Learn how we collect, use, and protect your personal information.",
+      "keywords": "privacy policy, data protection, personal information, data security"
+    },
+    "hero": {
+      "title": "Privacy Policy",
+      "subtitle": "Your privacy is important to us. This policy explains how we handle your personal information.",
+      "effectiveDate_label": "Effective Date:",
+      "effectiveDate_value": "January 1, 2026",
+      "operatedBy_label": "Operated by:",
+      "operatedBy_value": "Platform Name LLC"
+    },
+    "contact": {
+      "title": "Contact Information",
+      "description": "If you have questions about this Privacy Policy, contact us at:"
+    },
+    "sections": {
+      "1": {
+        "title": "1. Roles and Responsibilities",
+        "who_title": "Who This Applies To",
+        "who_content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "our_title": "Our Responsibilities",
+        "our_content": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "your_title": "Your Responsibilities",
+        "your_content": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+      },
+      "2": {
+        "title": "2. Information We Collect",
+        "content": "We collect personal and technical information:",
+        "direct_title": "You provide directly:",
+        "direct_list": {
+          "1": "Name and email address",
+          "2": "Account information"
+        },
+        "auto_title": "Collected automatically:",
+        "auto_list": {
+          "1": "IP address, browser type, device",
+          "2": "Navigation behavior through cookies"
+        },
+        "sdk_title": "Via Third-Party SDKs:",
+        "sdk_list": {
+          "1": "Integration data and updates",
+          "2": "Service information with your consent"
+        }
+      },
+      "3": {
+        "title": "3. How We Use Your Information",
+        "content": "We use your data to:",
+        "list": {
+          "1": "Authenticate users and manage accounts",
+          "2": "Process and deliver services",
+          "3": "Improve platform quality",
+          "4": "Send important notifications",
+          "5": "Enhance user experience",
+          "6": "Develop new features",
+          "7": "Comply with legal obligations and protect rights"
+        }
+      },
+      "4": {
+        "title": "4. Third-Party Data Sharing",
+        "content": "We share data with trusted partners:",
+        "service_title": "Service Providers:",
+        "service_value": "Delivery and fulfillment partners",
+        "cloud_title": "Cloud Providers:",
+        "cloud_value": "Hosting and storage services",
+        "payment_title": "Payment Providers:",
+        "payment_value": "Secure payment processing",
+        "support_title": "Support Tools:",
+        "support_value": "Customer service platforms",
+        "analytics_title": "Analytics:",
+        "analytics_value": "Only with your consent",
+        "legal_title": "Legal Requests:",
+        "legal_value": "We comply with legal obligations",
+        "important_label": "Important:",
+        "important_value": "We do not sell or rent your data."
+      },
+      "5": {
+        "title": "5. User Rights",
+        "content": "You have full control over your data. You may:",
+        "list": {
+          "1": "Request access to your data",
+          "2": "Ask us to correct inaccurate data",
+          "3": "Request deletion",
+          "4": "Withdraw consent for marketing",
+          "5": "Request data portability",
+          "6": "File a complaint"
+        },
+        "contact_label": "To exercise these rights, email:",
+        "contact_value": "support@example.com"
+      },
+      "6": {
+        "title": "6. Data Storage, Security & Retention",
+        "security_title": "Security Measures:",
+        "security_list": {
+          "1": "All data is encrypted in-transit and at rest",
+          "2": "Systems secured with MFA and access control",
+          "3": "Only authorized personnel access sensitive data"
+        },
+        "storage_title": "Where Data Is Stored:",
+        "storage_list": {
+          "1": "Cloud servers (secure region)",
+          "2": "Optimized delivery network"
+        },
+        "retention_title": "Retention Period:",
+        "retention_list": {
+          "1": "We retain data only as long as necessary",
+          "2": "Data may be retained temporarily after closure",
+          "3": "You may request deletion at any time"
+        }
+      },
+      "7": {
+        "title": "7. Cookies & Tracking Technologies",
+        "content": "We use cookies to improve your experience:",
+        "necessary_title": "Necessary Cookies",
+        "necessary_value": "Essential site functions",
+        "performance_title": "Performance Cookies",
+        "performance_value": "Analyze site usage",
+        "functional_title": "Functional Cookies",
+        "functional_value": "Save preferences",
+        "targeting_title": "Targeting Cookies",
+        "targeting_value": "Show relevant content",
+        "control_title": "How to Control Cookies:",
+        "control_value": "You can manage cookies via browser settings."
+      },
+      "8": {
+        "title": "8. Policy Updates",
+        "content": "This Privacy Policy may be updated as our services evolve. Check this page regularly."
+      },
+      "9": {
+        "title": "9. Contact Information",
+        "content": "If you have questions, contact:",
+        "email": "Email:",
+        "company": "Company: Platform Name LLC"
+      }
+    }
+  },
+  "UserGuide": {
+    "title": "User Guide",
+    "subtitle": "Learn how to use our platform effectively",
+    "searchPlaceholder": "Search guide...",
+    "sidebar": {
+      "new_features": "New Features",
+      "tiktok": "Main Features",
+      "research": "Research",
+      "settings": "Settings"
+    },
+    "sections": {
+      "new_features": {
+        "ai_design": {
+          "title": "AI Design",
+          "content": "Content is being updated.\\n\\nLorem ipsum dolor sit amet, consectetur adipiscing elit."
+        },
+        "fulfillment": {
+          "title": "Automation",
+          "content": "Content is being updated.\\n\\nLorem ipsum dolor sit amet, consectetur adipiscing elit."
+        }
+      },
+      "tiktok": {
+        "tiktok_store": {
+          "title": "Account Setup",
+          "subsections": {
+            "connect_store": {
+              "title": "Connect Account",
+              "content": "Welcome! This guide will walk you through connecting your account.\\n\\n**1. Before You Begin**\\n\\nPlease prepare:\\n\\n- An active account\\n- A browser where you're logged in\\n- Platform credentials\\n\\n**2. Connection Process**\\n\\n**Step 1: Sign in**\\n\\nAccess the platform homepage and sign in.\\n\\n**Step 2: Get Connection Link**\\n\\n- In the Dashboard, select the Account menu\\n- Click **Connect Account** button\\n- The system will generate a secure link\\n\\n**Step 3: Authorize Access**\\n\\n- Open your browser\\n- Navigate to the provided link\\n- Accept the authorization request\\n\\n**Step 4: Complete Setup**\\n\\n- Copy the verification code\\n- Return to the dashboard\\n- Paste the code to complete\\n\\n**3. FAQ**\\n\\nQ: Is this safe?\\nA: Absolutely. We use secure, verified connections.\\n\\nQ: How many accounts can I connect?\\nA: Unlimited accounts supported.\\n\\nQ: What if I encounter errors?\\nA: Contact our support team for assistance."
+            },
+            "manage_store": {
+              "title": "Manage Account",
+              "content": "Content is being updated.\\n\\nGuide for managing your account."
+            }
+          }
+        },
+        "tiktok_upload": {
+          "title": "Upload",
+          "content": "Content is being updated.\\n\\nUpload items quickly and efficiently."
+        },
+        "tiktok_product": {
+          "title": "Items",
+          "content": "Content is being updated.\\n\\nManage your items."
+        },
+        "tiktok_order": {
+          "title": "Orders",
+          "content": "Content is being updated.\\n\\nTrack and process orders."
+        }
+      },
+      "research": {
+        "auto_crawler": {
+          "title": "Auto Crawler",
+          "content": "Content is being updated.\\n\\nAutomatically collect information from various sources."
+        },
+        "search": {
+          "title": "Search",
+          "content": "Content is being updated.\\n\\nSearch and analyze opportunities."
+        },
+        "template": {
+          "title": "Template",
+          "content": "Content is being updated.\\n\\nManage and use templates."
+        },
+        "mockup": {
+          "title": "Mockup",
+          "content": "Content is being updated.\\n\\nCreate professional mockups."
+        },
+        "artworks": {
+          "title": "Artworks",
+          "content": "Content is being updated.\\n\\nManage your design library."
+        }
+      },
+      "settings": {
+        "settings": {
+          "title": "Settings",
+          "content": "Content is being updated.\\n\\nConfigure your account settings."
+        },
+        "team": {
+          "title": "Team",
+          "content": "Content is being updated.\\n\\nManage team members and permissions."
+        },
+        "billing": {
+          "title": "Billing",
+          "content": "Content is being updated.\\n\\nManage your payments and plans."
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,81 @@
+version: "3.8"
+
+services:
+  # PostgreSQL Database
+  postgres:
+    image: postgres:15-alpine
+    container_name: mekong-postgres
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: mekong_boilerplate
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  # NestJS Backend
+  backend:
+    build:
+      context: ./mekong-boilerplate-be-nestjs
+      dockerfile: Dockerfile
+    container_name: mekong-backend
+    environment:
+      DB_HOST: postgres
+      DB_PORT: 5432
+      DB_USERNAME: postgres
+      DB_PASSWORD: postgres
+      DB_DATABASE: mekong_boilerplate
+      PORT: 3001
+      NODE_ENV: development
+      JWT_SECRET: your-super-secret-jwt-key-change-in-production
+      JWT_ACCESS_TOKEN_EXPIRES_IN: 15m
+      JWT_REFRESH_TOKEN_EXPIRES_IN: 7d
+      EMAIL_SERVER_HOST: smtp.gmail.com
+      EMAIL_SERVER_PORT: 587
+      EMAIL_SERVER_USER: ${EMAIL_SERVER_USER}
+      EMAIL_SERVER_PASSWORD: ${EMAIL_SERVER_PASSWORD}
+      EMAIL_FROM: noreply@mekong-boilerplate.com
+      FRONTEND_URL: http://localhost:3000
+    ports:
+      - "3001:3001"
+    depends_on:
+      postgres:
+        condition: service_healthy
+    volumes:
+      - ./mekong-boilerplate-be-nestjs:/app
+      - /app/node_modules
+    command: sh -c "npm run migration:run && npm run start:dev"
+
+  # Next.js Frontend
+  frontend:
+    build:
+      context: ./mekong-boilerplate-fe-nextjs
+      dockerfile: Dockerfile
+    container_name: mekong-frontend
+    environment:
+      NEXT_PUBLIC_APP_ENV: development
+      NEXTAUTH_URL: http://localhost:3000
+      NEXTAUTH_SECRET: your-secret-key-here-change-in-production
+      GOOGLE_CLIENT_ID: ${GOOGLE_CLIENT_ID}
+      GOOGLE_CLIENT_SECRET: ${GOOGLE_CLIENT_SECRET}
+      NEXT_PUBLIC_API_URL: http://backend:3001
+      NEXT_PUBLIC_USE_MOCK_DATA: "true"
+    ports:
+      - "3000:3000"
+    depends_on:
+      - backend
+    volumes:
+      - ./mekong-boilerplate-fe-nextjs:/app
+      - /app/node_modules
+      - /app/.next
+    command: npm run dev
+
+volumes:
+  postgres_data:
+    driver: local

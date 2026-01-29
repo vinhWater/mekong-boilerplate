@@ -1,0 +1,530 @@
+/* 
+ * Admin Layout CSS - Admin Panel Specific Styles
+ * This file contains styles ONLY for the Admin Panel (/admin/* routes)
+ * Copied from client-layout.css to maintain consistent styling
+ */
+
+/* ============================================
+   TIKTOK ELITE THEME - CSS VARIABLES
+   ============================================ */
+
+/* Light Mode - "TikTok Clean" */
+.admin-app {
+  /* Backgrounds */
+  --seller-bg-primary: #ffffff;
+  --seller-bg-secondary: #f8f9fa;
+  --seller-bg-tertiary: #f1f3f5;
+
+  /* Header - Always Dark */
+  --seller-header-bg: #0c0c0c;
+  --seller-header-text: #ffffff;
+  --seller-header-border: rgba(255, 255, 255, 0.1);
+
+  /* Sidebar */
+  --seller-sidebar-bg: #fafafa;
+  --seller-sidebar-hover: #f1f3f5;
+  --seller-sidebar-active: #e9ecef;
+
+  /* Cards */
+  --seller-card-bg: #ffffff;
+  --seller-card-border: rgba(0, 0, 0, 0.08);
+  --seller-card-hover: #fafafa;
+
+  /* Text */
+  --seller-text-primary: #0c0c0c;
+  --seller-text-secondary: #525252;
+  --seller-text-muted: #a3a3a3;
+
+  /* Accents - TikTok Brand Colors */
+  --seller-accent-pink: #fe2c55;
+  --seller-accent-cyan: #00d9d0;
+  --seller-accent-pink-hover: #e02849;
+  --seller-accent-pink-light: rgba(254, 44, 85, 0.1);
+
+  /* Borders & Dividers */
+  --seller-border: rgba(0, 0, 0, 0.1);
+  --seller-border-light: rgba(0, 0, 0, 0.05);
+
+  /* Shadows */
+  --seller-shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.06);
+  --seller-shadow-md: 0 2px 12px rgba(0, 0, 0, 0.08);
+  --seller-shadow-lg: 0 4px 24px rgba(0, 0, 0, 0.12);
+
+  /* Glow Effects */
+  --seller-glow-pink: 0 0 20px rgba(254, 44, 85, 0.15);
+  --seller-glow-cyan: 0 0 20px rgba(0, 217, 208, 0.15);
+
+  /* Input */
+  --seller-input-bg: #ffffff;
+  --seller-input-border: rgba(0, 0, 0, 0.15);
+  --seller-input-focus: #fe2c55;
+
+  /* --- LOCAL SHADCN OVERRIDES (Light) --- */
+  --primary: 347 77% 50%; /* #FE2C55 (HSL approx) */
+  --ring: 347 77% 50%;
+  --background: 0 0% 100%; /* White */
+  --foreground: 0 0% 3.9%;
+}
+
+/* Dark Mode - "Elite Black" */
+.dark .admin-app {
+  /* --- LOCAL SHADCN OVERRIDES (Dark) --- */
+  /* Force neutral background to kill the pink/purple global theme */
+  --background: #0c0c0c;
+  --foreground: #fafafa;
+  --card: #0c0c0c;
+  --card-foreground: #fafafa;
+  --popover: #0c0c0c;
+  --popover-foreground: #fafafa;
+  --muted: #27272a;
+  --muted-foreground: #a1a1aa;
+  --accent: #27272a;
+  --accent-foreground: #fafafa;
+  --border: #27272a; /* Solid Dark Grey (Zinc-800) */
+  --input: #27272a;
+
+  /* Keep Primary as TikTok Red */
+  --primary: 347 77% 50%;
+  --primary-foreground: 0 0% 98%;
+  --ring: 347 77% 50%;
+
+  /* Backgrounds */
+  --seller-bg-primary: #0c0c0c;
+  --seller-bg-secondary: #1a1a1a;
+  --seller-bg-tertiary: #242424;
+
+  /* Header - Same as light mode (always dark) */
+  --seller-header-bg: #0c0c0c;
+  --seller-header-text: #ffffff;
+  --seller-header-border: rgba(255, 255, 255, 0.1);
+
+  /* Sidebar */
+  --seller-sidebar-bg: #0c0c0c;
+  --seller-sidebar-hover: #1a1a1a;
+  --seller-sidebar-active: #242424;
+
+  /* Cards */
+  --seller-card-bg: #1a1a1a;
+  --seller-card-border: #27272a; /* Zinc-800 - Solid Grey */
+  --seller-card-hover: #242424;
+
+  /* Text */
+  --seller-text-primary: #ffffff;
+  --seller-text-secondary: #a3a3a3;
+  --seller-text-muted: #737373;
+
+  /* Accents - TikTok Brand Colors (same) */
+  --seller-accent-pink: #fe2c55;
+  --seller-accent-cyan: #00f2ea;
+  --seller-accent-pink-hover: #ff1744;
+  --seller-accent-pink-light: rgba(254, 44, 85, 0.15);
+
+  /* Borders & Dividers */
+  --seller-border: #27272a; /* Zinc-800 - Solid Grey instead of rgba white */
+  --seller-border-light: #27272a;
+
+  /* Shadows */
+  --seller-shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.3);
+  --seller-shadow-md: 0 4px 16px rgba(0, 0, 0, 0.4);
+  --seller-shadow-lg: 0 8px 32px rgba(0, 0, 0, 0.5);
+
+  /* Glow Effects */
+  --seller-glow-pink: 0 0 20px rgba(254, 44, 85, 0.3);
+  --seller-glow-cyan: 0 0 20px rgba(0, 242, 234, 0.3);
+
+  /* Input */
+  --seller-input-bg: #1a1a1a;
+  --seller-input-border: #27272a; /* Zinc-800 */
+  --seller-input-focus: #fe2c55;
+}
+
+/* ============================================
+   ADMIN PANEL LAYOUT OVERRIDES
+   ============================================ */
+
+/* Override container max-width for full-width layout in Admin Panel */
+.admin-app .container {
+  max-width: 100%;
+}
+
+/* Main content area with theme colors */
+.admin-app main {
+  background-color: var(--seller-bg-primary);
+  color: var(--seller-text-primary);
+}
+
+/* --- STRICT ISOLATION SHIELD --- */
+/* Ensure the wrapper itself has the correct background to block any global body color leakage */
+.admin-app {
+  background-color: var(--seller-bg-primary);
+  color: var(--seller-text-primary);
+  min-height: 100vh;
+  width: 100%;
+}
+
+/* --- GLOBAL OVERRIDES WITHIN ADMIN APP --- */
+
+/* 1. Scrollbars - Force Neutral Gray */
+.admin-app *::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+.admin-app *::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.admin-app *::-webkit-scrollbar-thumb {
+  background-color: rgba(155, 155, 155, 0.5); /* Neutral Gray */
+  border-radius: 4px;
+}
+
+.admin-app *::-webkit-scrollbar-thumb:hover {
+  background-color: rgba(155, 155, 155, 0.7);
+}
+
+/* Force Auto-hide for generic elements */
+.admin-app *:hover {
+  scrollbar-color: rgba(155, 155, 155, 0.5) transparent;
+}
+.admin-app *:hover::-webkit-scrollbar-thumb {
+  background-color: rgba(155, 155, 155, 0.5);
+}
+.admin-app * {
+  scrollbar-color: transparent transparent;
+}
+.admin-app *::-webkit-scrollbar-thumb {
+  background-color: transparent;
+}
+
+/* 2. Selection - Neutral Blue instead of Pink */
+.admin-app *::selection {
+  background-color: rgba(59, 130, 246, 0.3); /* Blue-500 optimized opacity */
+  color: inherit;
+}
+
+/* 3. Focus Rings - Use Brand Color */
+.admin-app *:focus-visible {
+  outline-color: var(--seller-accent-pink) !important;
+  outline-width: 2px !important;
+}
+
+/* 4. Force Pointer Cursor on Buttons */
+
+.admin-app button:not(:disabled),
+.admin-app [role="button"]:not([aria-disabled="true"]),
+.admin-app .btn:not(.disabled),
+.admin-app .button:not(.disabled) {
+  cursor: pointer !important;
+}
+
+.admin-app button:disabled,
+.admin-app [role="button"][aria-disabled="true"],
+.admin-app .btn.disabled,
+.admin-app .button.disabled {
+  cursor: not-allowed !important;
+  opacity: 0.5;
+}
+
+/* ============================================
+   SCROLLBAR OVERRIDES
+   ============================================ */
+
+/* Override global .custom-scrollbar for Admin Panel */
+.admin-app .custom-scrollbar {
+  scrollbar-width: thin;
+  scrollbar-color: transparent transparent; /* Start transparent */
+}
+
+/* Show scrollbar on hover (standard) */
+.admin-app .custom-scrollbar:hover {
+  scrollbar-color: var(--seller-border) transparent;
+}
+
+.admin-app .custom-scrollbar::-webkit-scrollbar {
+  width: 8px;
+}
+
+.admin-app .custom-scrollbar::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.admin-app .custom-scrollbar::-webkit-scrollbar-thumb {
+  background-color: transparent !important; /* Hidden by default */
+  border-radius: 4px;
+}
+
+/* Show thumb on hover of the container (Webkit) */
+.admin-app .custom-scrollbar:hover::-webkit-scrollbar-thumb {
+  background-color: rgba(155, 155, 155, 0.5) !important;
+}
+
+.admin-app .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background-color: rgba(155, 155, 155, 0.7) !important;
+}
+
+/* ============================================
+   SIDEBAR SPECIFIC STYLES
+   ============================================ */
+
+/* Sidebar with theme colors */
+.admin-app aside {
+  background-color: var(--seller-sidebar-bg);
+  border-right: 1px solid var(--seller-border);
+  transition: all 0.3s ease;
+}
+
+/* Sidebar links */
+.admin-app aside a {
+  color: var(--seller-text-secondary);
+  transition: all 0.2s ease;
+}
+
+.admin-app aside a:hover {
+  background-color: var(--seller-sidebar-hover);
+  color: var(--seller-text-primary);
+}
+
+.admin-app aside a.bg-accent {
+  background-color: var(--seller-accent-pink-light);
+  color: var(--seller-accent-pink);
+  font-weight: 600;
+}
+
+/* ============================================
+   HEADER SPECIFIC STYLES
+   ============================================ */
+
+/* Sticky header - Always dark (override Tailwind) */
+.admin-app .header {
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  background-color: var(--seller-header-bg) !important;
+  border-bottom: 1px solid var(--seller-header-border) !important;
+  box-shadow: var(--seller-shadow-sm);
+  padding-left: 13px;
+  padding-right: 13px;
+}
+
+/* Header text always white (override all nested elements) */
+.admin-app .header,
+.admin-app .header *:not(svg) {
+  color: var(--seller-header-text) !important;
+}
+
+/* Header buttons styling */
+.admin-app .header button {
+  color: var(--seller-header-text) !important;
+  border-color: rgba(255, 255, 255, 0.2) !important;
+}
+
+.admin-app .header button:hover {
+  background-color: rgba(255, 255, 255, 0.1) !important;
+}
+
+/* ============================================
+   CUSTOM SCROLLBAR FOR ADMIN PANEL
+   ============================================ */
+
+/* Main content scrollbar */
+.admin-app main {
+  scrollbar-width: thin;
+  scrollbar-color: transparent transparent; /* Start transparent */
+}
+
+.admin-app main:hover {
+  scrollbar-color: var(--seller-border) transparent;
+}
+
+.admin-app main::-webkit-scrollbar {
+  width: 8px;
+}
+
+.admin-app main::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.admin-app main::-webkit-scrollbar-thumb {
+  background-color: transparent !important; /* Hidden by default */
+  border-radius: 4px;
+  transition: background-color 0.2s;
+}
+
+/* Show thumb on hover of main content */
+.admin-app main:hover::-webkit-scrollbar-thumb {
+  background-color: var(--seller-border) !important;
+}
+
+.admin-app main::-webkit-scrollbar-thumb:hover {
+  background-color: var(--seller-accent-pink) !important;
+}
+
+/* ============================================
+   ADMIN PANEL SPECIFIC UTILITIES
+   ============================================ */
+
+/* Page header styles */
+.admin-app .page-header {
+  padding: 1.5rem 2rem;
+  border-bottom: 1px solid var(--seller-border);
+  background-color: var(--seller-card-bg);
+}
+
+/* Content wrapper */
+.admin-app .content-wrapper {
+  padding: 2rem;
+  background-color: var(--seller-bg-secondary);
+}
+
+/* Card styles for Admin Panel */
+.admin-app .seller-card {
+  background-color: var(--seller-card-bg);
+  border: 1px solid var(--seller-card-border);
+  border-radius: 0.75rem;
+  padding: 1.5rem;
+  box-shadow: var(--seller-shadow-sm);
+  transition: all 0.3s ease;
+}
+
+.admin-app .seller-card:hover {
+  background-color: var(--seller-card-hover);
+  box-shadow: var(--seller-shadow-md);
+  transform: translateY(-2px);
+}
+
+/* Primary button with TikTok pink */
+.admin-app .btn-primary {
+  background-color: var(--seller-accent-pink);
+  color: white;
+  border: none;
+  padding: 0.625rem 1.25rem;
+  border-radius: 0.5rem;
+  font-weight: 600;
+  transition: all 0.2s ease;
+  box-shadow: var(--seller-shadow-sm);
+}
+
+.admin-app .btn-primary:hover {
+  background-color: var(--seller-accent-pink-hover);
+  box-shadow: var(--seller-glow-pink);
+  transform: translateY(-1px);
+}
+
+/* Secondary button */
+.admin-app .btn-secondary {
+  background-color: var(--seller-bg-tertiary);
+  color: var(--seller-text-primary);
+  border: 1px solid var(--seller-border);
+  padding: 0.625rem 1.25rem;
+  border-radius: 0.5rem;
+  font-weight: 500;
+  transition: all 0.2s ease;
+}
+
+.admin-app .btn-secondary:hover {
+  background-color: var(--seller-card-hover);
+  border-color: var(--seller-accent-pink);
+}
+
+/* Input fields */
+.admin-app input,
+.admin-app textarea,
+.admin-app select {
+  background-color: var(--seller-input-bg);
+  border: 1px solid var(--seller-input-border);
+  color: var(--seller-text-primary);
+  transition: all 0.2s ease;
+}
+
+.admin-app input:focus,
+.admin-app textarea:focus,
+.admin-app select:focus {
+  border-color: var(--seller-input-focus);
+  box-shadow: 0 0 0 3px var(--seller-accent-pink-light);
+  outline: none;
+}
+
+.admin-app input::placeholder,
+.admin-app textarea::placeholder {
+  color: var(--seller-text-muted);
+}
+
+/* ============================================
+   RESPONSIVE ADJUSTMENTS
+   ============================================ */
+
+@media (max-width: 768px) {
+  .admin-app .content-wrapper {
+    padding: 1rem;
+  }
+
+  .admin-app .page-header {
+    padding: 1rem;
+  }
+
+  .admin-app .seller-card {
+    padding: 1rem;
+  }
+}
+
+/* ============================================
+   MOBILE DRAWER NAVIGATION
+   ============================================ */
+
+@media (max-width: 768px) {
+  /* Sidebar becomes fixed drawer */
+  .admin-app aside {
+    position: fixed !important;
+    left: 0;
+    top: 56px; /* Below header (h-14) */
+    height: calc(100vh - 56px);
+    width: 240px !important; /* Fixed width for drawer */
+    z-index: 40;
+    transform: translateX(-100%); /* Hidden by default */
+    transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    box-shadow: var(--seller-shadow-lg);
+    overflow: visible !important; /* Override any overflow hidden */
+  }
+
+  /* Drawer open state */
+  .admin-app aside.sidebar-open {
+    transform: translateX(0); /* Slide in */
+  }
+
+  /* Main content takes full width */
+  .admin-app main {
+    margin-left: 0 !important;
+    width: 100% !important;
+  }
+
+  /* Overlay backdrop */
+  .sidebar-overlay {
+    position: fixed;
+    inset: 0;
+    top: 56px; /* Below header */
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 35; /* Below sidebar but above content */
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  /* Overlay visible when sidebar open */
+  .sidebar-overlay.visible {
+    opacity: 1;
+    pointer-events: auto;
+  }
+
+  /* Prevent body scroll when drawer is open */
+  body.drawer-open {
+    overflow: hidden;
+  }
+}
+
+/* Tablet adjustments (768px - 1024px) */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .admin-app aside {
+    width: 180px !important; /* Narrower sidebar on tablets */
+  }
+}

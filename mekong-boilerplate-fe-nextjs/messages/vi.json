@@ -1,0 +1,839 @@
+{
+  "HomePage": {
+    "title": "Nền Tảng Tự Động Hóa Toàn Diện",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam quis nostrud exercitation ullamco.",
+    "getStarted": "🚀 Bắt Đầu Ngay",
+    "learnMore": "Tìm Hiểu Thêm",
+    "trial": "Dùng thử miễn phí",
+    "noFees": "Không phí thiết lập",
+    "cancel": "Hủy bất kỳ lúc nào",
+    "officialApi": "Đối Tác Chính Thức",
+    "heroVisual": {
+      "revenue": "Doanh thu: XX.XXX đ 🚀",
+      "sync": "Trạng thái: Đã kết nối",
+      "security": "Kết nối an toàn",
+      "product": "Sản phẩm cao cấp"
+    },
+    "Features": {
+      "title": "Chúng tôi làm được gì?",
+      "description": "Các tính năng mạnh mẽ được thiết kế để giúp bạn thành công",
+      "secureIntegration": {
+        "title": "Tích Hợp Bảo Mật",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore."
+      },
+      "multiShop": {
+        "title": "Hỗ Trợ Đa Tài Khoản",
+        "description": "Lorem ipsum dolor sit amet, quản lý tất cả từ một bảng điều khiển duy nhất."
+      },
+      "staffPermissions": {
+        "title": "Phân Quyền Nhóm",
+        "description": "Lorem ipsum dolor sit amet, kiểm soát truy cập an toàn cho thành viên nhóm của bạn."
+      },
+      "aiGraphics": {
+        "title": "Công Cụ AI Mạnh Mẽ",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, tạo thiết kế tự động."
+      },
+      "bulkUpload": {
+        "title": "Thao Tác Hàng Loạt",
+        "description": "Lorem ipsum dolor sit amet, tiết kiệm thời gian với khả năng xử lý hàng loạt."
+      },
+      "inventorySync": {
+        "title": "Đồng Bộ Tồn Kho",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit trong thời gian thực."
+      },
+      "analytics": {
+        "title": "Báo Cáo & Phân Tích",
+        "description": "Lorem ipsum dolor sit amet, thông tin chi tiết về hiệu suất kinh doanh của bạn."
+      },
+      "smartCrawling": {
+        "title": "Trích Xuất Thông Minh",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit tự động."
+      },
+      "automatedListing": {
+        "title": "Đăng Tải Tự Động",
+        "description": "Lorem ipsum dolor sit amet sử dụng mẫu và lịch trình tùy chỉnh."
+      },
+      "orderManagement": {
+        "title": "Quản Lý Đơn Hàng",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit với tích hợp liền mạch."
+      },
+      "templateSystem": {
+        "title": "Hệ Thống Mẫu",
+        "description": "Lorem ipsum dolor sit amet với các thành phần có thể tái sử dụng."
+      }
+    },
+    "WhyTokExpert": {
+      "title": "Tại Sao Chọn Chúng Tôi?",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "badge": "GIẢI PHÁP TIN CẬY",
+      "pain1": {
+        "title": "Vấn Đề Thứ Nhất",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      },
+      "pain2": {
+        "title": "Vấn Đề Thứ Hai",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      },
+      "pain3": {
+        "title": "Vấn Đề Thứ Ba",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      }
+    },
+    "TargetAudience": {
+      "title": "Dành Cho Ai?",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "badge": "ĐỐI TƯỢNG PHÙ HỢP",
+      "solo": {
+        "title": "Người Dùng Cá Nhân",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+      },
+      "teams": {
+        "title": "Đội Nhóm & Phát Triển",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+      },
+      "enterprise": {
+        "title": "Doanh Nghiệp & Đối Tác",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+      }
+    },
+    "Pricing": {
+      "title": "Bảng Giá Đơn Giản, Minh Bạch",
+      "description": "Bắt đầu miễn phí, nâng cấp khi phát triển. Không phí ẩn.",
+      "forever": "/trọn đời",
+      "monthStore": "/tài khoản/tháng",
+      "Free": {
+        "title": "Miễn Phí",
+        "subtitle": "Bắt đầu ngay hôm nay",
+        "features": {
+          "beginners": "Hoàn hảo cho người mới",
+          "unlimited": "Kết nối không giới hạn tài khoản",
+          "basic": "Truy cập tính năng cơ bản",
+          "noCard": "Không cần thẻ tín dụng"
+        },
+        "cta": "Bắt Đầu Miễn Phí"
+      },
+      "Creator": {
+        "title": "Creator",
+        "tag": "Phổ Biến Nhất",
+        "subtitle": "Tốt nhất cho người dùng tích cực",
+        "features": {
+          "traffic": "Cho người dùng có hoạt động hàng ngày",
+          "upload": "Tải lên tới 100 mục/tháng",
+          "fulfill": "Xử lý tới 300 đơn hàng/tháng",
+          "automation": "Truy cập công cụ tự động hóa",
+          "bulk": "Thao tác hàng loạt & tính năng AI"
+        },
+        "recommendation": "🎯 Được khuyên dùng cho 95% người dùng",
+        "cta": "Bắt Đầu Gói Creator"
+      },
+      "Growth": {
+        "title": "Growth",
+        "subtitle": "Mở rộng không giới hạn",
+        "features": {
+          "noLimits": "Mọi tính năng Creator, không giới hạn",
+          "dailyOrders": "Lý tưởng cho hoạt động khối lượng lớn",
+          "scale": "Mở rộng dễ dàng không giới hạn",
+          "support": "Hỗ trợ ưu tiên"
+        },
+        "switch": "💬 Chuyển sang Growth bất cứ khi nào bạn cần",
+        "cta": "Nâng Cấp Khi Sẵn Sàng"
+      },
+      "Enterprise": {
+        "title": "Doanh Nghiệp",
+        "tag": "Enterprise",
+        "subtitle": "Tùy chỉnh cho đối tác",
+        "price": "$X",
+        "priceDetail": "/tài khoản/tháng (cho 200+ tài khoản)",
+        "features": {
+          "title1": "Giải Pháp Tùy Chỉnh",
+          "api": "API tùy chỉnh, SLA, phân tích nâng cao",
+          "title2": "Hỗ Trợ Ưu Tiên",
+          "support": "Hỗ trợ riêng & quản lý tài khoản"
+        },
+        "cta": "Liên Hệ Sales"
+      }
+    },
+    "OurCommitment": {
+      "badge": "CAM KẾT CỦA CHÚNG TÔI",
+      "title": "Chúng Tôi Cũng Là Người Dùng Như Bạn",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.",
+      "visual": {
+        "text": "Người Dùng Thực"
+      },
+      "point1": {
+        "title": "Trải Nghiệm Thực Tế Từ Người Trong Cuộc",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      },
+      "point2": {
+        "title": "Cải Tiến Liên Tục",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      },
+      "point3": {
+        "title": "Phát Triển Cùng Nhau",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore."
+      },
+      "quote": "Chúng tôi xây dựng công cụ mà chính mình muốn sử dụng. Nếu nó không đủ tốt cho chúng tôi, nó sẽ không đủ tốt cho bạn.",
+      "author": "Đội Ngũ Của Chúng Tôi - Người Dùng & Người Xây Dựng"
+    },
+    "CTA": {
+      "title": "Đừng Chỉ Sử Dụng.\\nHãy Xây Dựng Thành Công.",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Bắt đầu ngay hôm nay.",
+      "button": "Dùng Thử Miễn Phí"
+    }
+  },
+  "AboutPage": {
+    "metadata": {
+      "title": "Về Chúng Tôi | Nền Tảng Lorem Ipsum",
+      "description": "Tìm hiểu về đội ngũ của chúng tôi - đam mê công nghệ và giúp người dùng thành công."
+    },
+    "hero": {
+      "badge": "Về Chúng Tôi",
+      "title": "Chúng Tôi Là Ai?",
+      "subtitle": "Người dùng thực xây dựng công cụ cho chính mình và cộng đồng",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Chúng tôi hiểu nhu cầu của bạn vì chúng tôi đã ở đó."
+    },
+    "story": {
+      "title": "Câu Chuyện Của Chúng Tôi",
+      "subtitle": "Từ thử thách đến giải pháp",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.\\n\\nUt enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.\\n\\nDuis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur:\\n• Sed ut perspiciatis unde omnis\\n• Nemo enim ipsam voluptatem\\n• At vero eos et accusamus\\n• Temporibus autem quibusdam"
+    },
+    "mission": {
+      "title": "Sứ Mệnh",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    },
+    "vision": {
+      "title": "Tầm Nhìn",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    },
+    "values": {
+      "title": "Giá Trị Cốt Lõi",
+      "subtitle": "Những nguyên tắc định hướng quyết định của chúng tôi",
+      "customerFirst": {
+        "title": "Khách Hàng Là Trung Tâm",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+      },
+      "innovation": {
+        "title": "Đổi Mới Liên Tục",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+      },
+      "integrity": {
+        "title": "Minh Bạch & Trung Thực",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+      },
+      "excellence": {
+        "title": "Chất Lượng Vượt Trội",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+      },
+      "growth": {
+        "title": "Tư Duy Phát Triển",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+      },
+      "passion": {
+        "title": "Đam Mê Công Việc",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+      }
+    },
+    "whyChooseUs": {
+      "title": "Tại Sao Chọn Chúng Tôi?",
+      "subtitle": "Những điểm khác biệt làm nên chúng tôi",
+      "point1": {
+        "title": "Được Xây Dựng Bởi Người Dùng Thực",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt."
+      },
+      "point2": {
+        "title": "Đối Tác Đã Xác Minh - An Toàn Tuyệt Đối",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt."
+      },
+      "point3": {
+        "title": "Hỗ Trợ Tận Tâm 24/7",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt."
+      }
+    },
+    "cta": {
+      "title": "Sẵn Sàng Bắt Đầu Hành Trình?",
+      "description": "Tham gia hàng ngàn người tin dùng nền tảng của chúng tôi để thành công.",
+      "button": "Dùng Thử Miễn Phí",
+      "note": "Không cần thẻ tín dụng • Hủy bất cứ lúc nào"
+    }
+  },
+  "ContactSupport": {
+    "metadata": {
+      "title": "Liên Hệ Hỗ Trợ | Nền Tảng Lorem Ipsum",
+      "description": "Liên hệ với đội ngũ hỗ trợ. Chúng tôi sẵn sàng giúp đỡ với bất kỳ câu hỏi nào."
+    },
+    "hero": {
+      "badge": "Hỗ Trợ Khách Hàng",
+      "title": "Liên Hệ Hỗ Trợ",
+      "subtitle": "Chúng tôi luôn sẵn sàng hỗ trợ bạn",
+      "description": "Gửi yêu cầu của bạn và chúng tôi sẽ phản hồi trong vòng 24 giờ. Hoặc liên hệ trực tiếp qua các kênh bên dưới."
+    },
+    "contactMethods": {
+      "title": "Kênh Liên Hệ",
+      "subtitle": "Chọn kênh phù hợp nhất với bạn",
+      "email": {
+        "title": "Email",
+        "description": "Gửi email cho chúng tôi",
+        "value": "contact@example.com",
+        "cta": "Gửi Email"
+      },
+      "messenger": {
+        "title": "Messenger",
+        "description": "Chat qua Messenger",
+        "cta": "Mở Messenger"
+      },
+      "zalo": {
+        "title": "Chat",
+        "description": "Chat với chúng tôi",
+        "cta": "Mở Chat"
+      }
+    },
+    "form": {
+      "title": "Gửi Yêu Cầu Hỗ Trợ",
+      "subtitle": "Điền thông tin bên dưới và chúng tôi sẽ phản hồi sớm nhất",
+      "name": {
+        "label": "Họ và Tên",
+        "placeholder": "Nguyễn Văn A"
+      },
+      "email": {
+        "label": "Email",
+        "placeholder": "email@example.com"
+      },
+      "subject": {
+        "label": "Chủ Đề",
+        "placeholder": "Vấn đề bạn cần hỗ trợ"
+      },
+      "message": {
+        "label": "Nội Dung",
+        "placeholder": "Mô tả chi tiết vấn đề của bạn...",
+        "maxLength": "Tối đa 1000 ký tự"
+      },
+      "submit": "Gửi Yêu Cầu",
+      "submitting": "Đang gửi..."
+    },
+    "validation": {
+      "nameRequired": "Vui lòng nhập họ tên",
+      "emailRequired": "Vui lòng nhập email",
+      "emailInvalid": "Email không hợp lệ",
+      "subjectRequired": "Vui lòng nhập chủ đề",
+      "messageRequired": "Vui lòng nhập nội dung",
+      "messageMaxLength": "Nội dung không được vượt quá 1000 ký tự"
+    },
+    "messages": {
+      "success": "Cảm ơn bạn đã liên hệ! Chúng tôi sẽ phản hồi trong vòng 24 giờ.",
+      "error": "Đã xảy ra lỗi. Vui lòng thử lại sau.",
+      "rateLimitExceeded": "Bạn đã gửi quá nhiều yêu cầu. Vui lòng thử lại sau 24 giờ."
+    },
+    "businessHours": {
+      "title": "Hỗ Trợ 24/7",
+      "description": "Chúng tôi luôn sẵn sàng hỗ trợ bạn bất cứ lúc nào.",
+      "note": "Gửi yêu cầu của bạn và chúng tôi sẽ phản hồi sớm nhất có thể."
+    }
+  },
+  "Header": {
+    "getStarted": "Dùng Thử Miễn Phí",
+    "menu": {
+      "Home": "Trang Chủ",
+      "Features": "Tính Năng",
+      "Pricing": "Bảng Giá",
+      "SellerCenter": "Bảng Điều Khiển",
+      "UserGuide": "Hướng Dẫn",
+      "About": "Giới Thiệu",
+      "Blog": "Blog",
+      "Support": "Hỗ Trợ",
+      "Pages": "Trang",
+      "AboutPage": "Trang Giới Thiệu",
+      "ContactPage": "Trang Liên Hệ",
+      "BlogGridPage": "Trang Blog Lưới",
+      "BlogSidebarPage": "Trang Blog Sidebar",
+      "BlogDetailsPage": "Trang Chi Tiết Blog",
+      "SignInPage": "Trang Đăng Nhập",
+      "SignUpPage": "Trang Đăng Ký",
+      "ErrorPage": "Trang Lỗi"
+    }
+  },
+  "Footer": {
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mở rộng thành công với tự động hóa mạnh mẽ.",
+    "copyright": "© 2025-2026 Tên Nền Tảng. Đã đăng ký bản quyền.",
+    "Product": {
+      "title": "Sản Phẩm",
+      "Features": "Tính Năng",
+      "Pricing": "Bảng Giá",
+      "Dashboard": "Bảng Điều Khiển"
+    },
+    "Legal": {
+      "title": "Pháp Lý",
+      "About": "Về Chúng Tôi",
+      "Terms": "Điều Khoản Dịch Vụ",
+      "Refund": "Chính Sách Hoàn Tiền",
+      "Privacy": "Chính Sách Bảo Mật"
+    },
+    "Support": {
+      "title": "Hỗ Trợ & Trợ Giúp",
+      "Contact": "Liên Hệ Hỗ Trợ",
+      "Documentation": "Hướng Dẫn Sử Dụng",
+      "Help": "Trung Tâm Trợ Giúp"
+    }
+  },
+  "Testimonials": {
+    "title": "Khách hàng nói gì về chúng tôi",
+    "subtitle": "Tham gia cùng hàng ngàn người dùng thành công đã thay đổi hoạt động của họ với nền tảng của chúng tôi.",
+    "1": {
+      "name": "Nguyễn Thị Hoa",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "designation": "Chủ Doanh Nghiệp"
+    },
+    "2": {
+      "name": "Trần Văn Nam",
+      "content": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "designation": "Trưởng Nhóm"
+    },
+    "3": {
+      "name": "Phạm Minh Tâm",
+      "content": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+      "designation": "Người Dùng Chuyên Nghiệp"
+    }
+  },
+  "Video": {
+    "title": "Xem Hoạt Động Thực Tế",
+    "description": "Xem video để thấy việc tự động hóa quy trình làm việc dễ dàng như thế nào với nền tảng của chúng tôi.",
+    "cta": "Xem Demo"
+  },
+  "ContactDialog": {
+    "title": "Chọn Phương Thức Liên Hệ",
+    "messengerDescription": "Chat qua Messenger",
+    "zaloDescription": "Chat với chúng tôi"
+  },
+  "TermsOfService": {
+    "metadata": {
+      "title": "Điều Khoản Dịch Vụ | Tên Nền Tảng",
+      "description": "Đọc Điều Khoản Dịch Vụ của nền tảng. Hiểu rõ quyền và trách nhiệm của bạn.",
+      "keywords": "điều khoản dịch vụ, thỏa thuận người dùng, pháp lý"
+    },
+    "hero": {
+      "title": "Điều Khoản Dịch Vụ",
+      "subtitle": "Chào mừng đến với nền tảng của chúng tôi. Các điều khoản này quy định quyền truy cập và sử dụng dịch vụ.",
+      "lastUpdated": "Cập nhật lần cuối: Tháng 1, 2026",
+      "providedBy": "Cung cấp bởi: Tên Nền Tảng LLC"
+    },
+    "contact": {
+      "title": "Thông Tin Liên Hệ",
+      "description": "Nếu có bất kỳ câu hỏi nào về các Điều khoản này, vui lòng liên hệ với chúng tôi tại:"
+    },
+    "sections": {
+      "1": {
+        "title": "1. Giới Thiệu",
+        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      },
+      "2": {
+        "title": "2. Điều Kiện Tham Gia",
+        "content": "Bạn phải ít nhất 18 tuổi hoặc đủ tuổi trưởng thành theo quy định để sử dụng dịch vụ."
+      },
+      "3": {
+        "title": "3. Đăng Ký Tài Khoản",
+        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Bạn có trách nhiệm bảo mật thông tin đăng nhập."
+      },
+      "4": {
+        "title": "4. Các Gói Đăng Ký & Thanh Toán",
+        "content": "Chúng tôi cung cấp cả gói miễn phí và các gói trả phí:",
+        "free": {
+          "title": "Gói Miễn Phí",
+          "description": "Giới hạn tính năng để bắt đầu."
+        },
+        "paid": {
+          "title": "Gói Trả Phí",
+          "description": "Các gói cao cấp với thanh toán hàng tháng hoặc hàng năm."
+        },
+        "billing_label": "Xử lý thanh toán:",
+        "billing_value": "Thanh toán được xử lý an toàn. Tất cả các khoản phí không được hoàn lại trừ khi có quy định khác.",
+        "refund_label": "Hoàn tiền & Hủy bỏ:",
+        "refund_value": "Xem Chính sách hoàn tiền của chúng tôi để biết chi tiết."
+      },
+      "5": {
+        "title": "5. Ngoại Tuyến và Bảo Trì",
+        "p1": "Chúng tôi không cam kết website sẽ trực tuyến 100% thời gian.",
+        "p2": "Chúng tôi có quyền hạn chế quyền truy cập dịch vụ nếu cần thiết.",
+        "p3": "Chúng tôi có thể thực hiện bảo trì và giới thiệu tính năng mới theo thời gian."
+      },
+      "6": {
+        "title": "6. Trách Nhiệm Của Người Dùng",
+        "content": "Bạn hoàn toàn chịu trách nhiệm về:",
+        "list": {
+          "1": "Nội dung bạn tạo và chia sẻ.",
+          "2": "Đảm bảo tuân thủ luật pháp hiện hành.",
+          "3": "Cung cấp thông tin chính xác.",
+          "4": "Quản lý giao tiếp với khách hàng của bạn."
+        }
+      },
+      "7": {
+        "title": "7. Tuyên Bố Miễn Trừ Trách Nhiệm Tích Hợp",
+        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit:",
+        "requirements_label": "Yêu cầu:",
+        "requirements_value": "Tài khoản hợp lệ với các nhà cung cấp bên thứ ba.",
+        "payment_label": "Trách Nhiệm Thanh Toán:",
+        "payment_value": "Bạn chịu trách nhiệm cho tất cả các chi phí liên quan.",
+        "limitation_label": "Giới Hạn Dịch Vụ:",
+        "limitation_value": "Chúng tôi chỉ tạo điều kiện kết nối, không đảm bảo kết quả."
+      },
+      "8": {
+        "title": "8. Miễn Trừ Trách Nhiệm & Giới Hạn Trách Nhiệm Pháp Lý",
+        "warning_label": "Lưu ý quan trọng:",
+        "warning_value": "Nền tảng này là công cụ hỗ trợ người dùng. Chúng tôi không chịu trách nhiệm về quyết định kinh doanh của bạn.",
+        "content": "Bạn hoàn toàn chịu trách nhiệm cho:",
+        "list": {
+          "1": "Quyết định tạo hoặc bán gì.",
+          "2": "Tuân thủ các chính sách nền tảng.",
+          "3": "Xử lý giao tiếp với khách hàng.",
+          "4": "Đảm bảo tuân thủ pháp luật."
+        },
+        "scope_label": "Phạm vi dịch vụ:",
+        "scope_value": "Chúng tôi cung cấp công cụ và tự động hóa. Cách bạn sử dụng là trách nhiệm của bạn.",
+        "footer": "Chúng tôi cung cấp công cụ, nhưng cách bạn sử dụng chúng là trách nhiệm hoàn toàn của bạn."
+      },
+      "9": {
+        "title": "9. Chính Sách Sử Dụng Công Bằng",
+        "content": "Bạn đồng ý sử dụng nền tảng trong giới hạn hợp lý. Sử dụng quá mức có thể dẫn đến tạm dừng tài khoản."
+      },
+      "10": {
+        "title": "10. Bảo Mật và Lạm Dụng",
+        "content": "Bạn không được sử dụng nền tảng của chúng tôi theo bất kỳ cách nào làm ảnh hưởng đến bảo mật hoặc hiệu suất."
+      },
+      "11": {
+        "title": "11. Các Hành Vi Bị Cấm",
+        "content": "Bạn đồng ý không:",
+        "list": {
+          "1": "Sử dụng cho mục đích bất hợp pháp.",
+          "2": "Vi phạm bất kỳ quy định hoặc luật pháp nào.",
+          "3": "Gửi quảng cáo trái phép hoặc spam.",
+          "4": "Thu thập thông tin cá nhân mà không có sự đồng ý.",
+          "5": "Can thiệp vào hoạt động của nền tảng."
+        }
+      },
+      "12": {
+        "title": "12. Sở Hữu Trí Tuệ",
+        "content": "Tất cả nội dung là tài sản của Tên Nền Tảng LLC. Bạn không được sao chép hoặc phân phối mà không được phép."
+      },
+      "13": {
+        "title": "13. Chấm Dứt Dịch Vụ",
+        "content": "Chúng tôi có quyền tạm dừng hoặc chấm dứt tài khoản của bạn nếu bạn vi phạm các Điều khoản này."
+      },
+      "14": {
+        "title": "14. Luật Áp Dụng",
+        "content": "Các Điều khoản này được điều chỉnh bởi luật pháp hiện hành."
+      },
+      "15": {
+        "title": "15. Liên Hệ",
+        "email": "Email:",
+        "company": "Công ty: Tên Nền Tảng LLC"
+      }
+    }
+  },
+  "RefundPolicy": {
+    "metadata": {
+      "title": "Chính Sách Hoàn Tiền | Tên Nền Tảng",
+      "description": "Tìm hiểu về chính sách hoàn tiền 14 ngày và quyền lợi người tiêu dùng của bạn.",
+      "keywords": "chính sách hoàn tiền, hủy đơn, quyền tiêu dùng, hoàn tiền 14 ngày"
+    },
+    "hero": {
+      "title": "Chính Sách Hoàn Tiền",
+      "subtitle": "Chúng tôi cung cấp quyền hoàn tiền trong vòng 14 ngày. Sự hài lòng của bạn là ưu tiên của chúng tôi.",
+      "lastUpdated": "Cập nhật lần cuối: Tháng 1, 2026",
+      "providedBy": "Cung cấp bởi: Tên Nền Tảng LLC"
+    },
+    "contact": {
+      "title": "Thông Tin Liên Hệ",
+      "description": "Để yêu cầu hoàn tiền hoặc có câu hỏi về chính sách này, vui lòng liên hệ với chúng tôi tại:"
+    },
+    "sections": {
+      "1": {
+        "title": "1. Giới Thiệu",
+        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Chính sách này giải thích quyền lợi của bạn và cách thực hiện."
+      },
+      "2": {
+        "title": "2. Quyền Hủy Đơn Của Người Tiêu Dùng (Trong Vòng 14 Ngày)",
+        "highlight": "Bạn có 14 ngày để hủy mà không cần nêu lý do.",
+        "description": "Quyền này có hiệu lực từ ngày sau khi mua hàng.",
+        "p1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "p2": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+      },
+      "3": {
+        "title": "3. Cách Yêu Cầu Hoàn Tiền",
+        "description": "Để thực hiện quyền hủy:",
+        "methods": {
+          "1": "Gửi email đến contact@example.com kèm theo thông tin đơn hàng",
+          "2": "Sử dụng biểu mẫu hủy mẫu ở Mục 4",
+          "3": "Gửi tuyên bố rõ ràng qua form liên hệ"
+        },
+        "note_label": "Xử lý nhanh chóng:",
+        "note_value": "Chúng tôi sẽ gửi xác nhận đã nhận yêu cầu của bạn ngay lập tức."
+      },
+      "4": {
+        "title": "4. Biểu Mẫu Hủy Mẫu",
+        "instruction": "Bạn có thể sử dụng mẫu này:",
+        "form": {
+          "to": "Gửi: Đội ngũ Hỗ trợ, contact@example.com",
+          "statement": "Tôi xin thông báo rằng tôi muốn hủy giao dịch mua:",
+          "ordered_label": "Đặt hàng vào:",
+          "ordered_value": "[Nhập ngày]",
+          "name_label": "Họ tên:",
+          "name_value": "[Họ tên đầy đủ của bạn]",
+          "email_label": "Email:",
+          "email_value": "[Địa chỉ email của bạn]",
+          "date_label": "Ngày:",
+          "date_value": "[Ngày hôm nay]"
+        }
+      },
+      "5": {
+        "title": "5. Hiệu Lực Của Việc Hủy",
+        "p1": "Nếu bạn hủy trong vòng 14 ngày, chúng tôi sẽ hoàn lại toàn bộ số tiền đã nhận.",
+        "p2": "Chúng tôi sẽ xử lý hoàn tiền trong vòng 14 ngày.",
+        "p3": "Việc hoàn tiền sẽ sử dụng cùng phương thức thanh toán mà bạn đã dùng."
+      },
+      "6": {
+        "title": "6. Ngoại Lệ Đối Với Quyền Hủy",
+        "content": "Quyền hủy không áp dụng cho nội dung số mà bạn đã bắt đầu sử dụng."
+      },
+      "7": {
+        "title": "7. Chính Sách Hoàn Tiền Chung",
+        "p1": "Ngoài quyền hủy 14 ngày, các yêu cầu hoàn tiền khác sẽ được xem xét từng trường hợp.",
+        "p2": "Chúng tôi có thể từ chối yêu cầu trong trường hợp gian lận hoặc lạm dụng.",
+        "note_label": "Quyền lợi người tiêu dùng của bạn:",
+        "note_value": "Chính sách này không ảnh hưởng đến các quyền theo luật định của bạn."
+      },
+      "8": {
+        "title": "8. Chính Sách Hoàn Thuế Bán Hàng",
+        "p1": "Nếu bạn bị tính thuế bán hàng và đã đăng ký, bạn có thể được hoàn thuế.",
+        "p2": "Liên hệ với chúng tôi trong vòng 60 ngày kể từ ngày mua hàng.",
+        "p3": "Yêu cầu sau 60 ngày sẽ không được xử lý."
+      },
+      "9": {
+        "title": "9. Thông Tin Liên Hệ",
+        "email": "Email:",
+        "company": "Công ty: Tên Nền Tảng LLC"
+      }
+    }
+  },
+  "PrivacyPolicy": {
+    "metadata": {
+      "title": "Chính Sách Bảo Mật | Tên Nền Tảng",
+      "description": "Tìm hiểu cách chúng tôi thu thập, sử dụng và bảo vệ thông tin cá nhân của bạn.",
+      "keywords": "chính sách bảo mật, bảo vệ dữ liệu, thông tin cá nhân, an ninh dữ liệu"
+    },
+    "hero": {
+      "title": "Chính Sách Bảo Mật",
+      "subtitle": "Quyền riêng tư của bạn rất quan trọng đối với chúng tôi. Chính sách này giải thích cách chúng tôi xử lý thông tin cá nhân của bạn.",
+      "effectiveDate_label": "Ngày có hiệu lực:",
+      "effectiveDate_value": "01 Tháng 1, 2026",
+      "operatedBy_label": "Vận hành bởi:",
+      "operatedBy_value": "Tên Nền Tảng LLC"
+    },
+    "contact": {
+      "title": "Thông Tin Liên Hệ",
+      "description": "Nếu bạn có câu hỏi về Chính sách Bảo mật này, vui lòng liên hệ với chúng tôi tại:"
+    },
+    "sections": {
+      "1": {
+        "title": "1. Vai Trò và Trách Nhiệm",
+        "who_title": "Đối Tượng Áp Dụng",
+        "who_content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "our_title": "Trách Nhiệm Của Chúng Tôi",
+        "our_content": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "your_title": "Trách Nhiệm Của Bạn",
+        "your_content": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+      },
+      "2": {
+        "title": "2. Thông Tin Chúng Tôi Thu Thập",
+        "content": "Chúng tôi thu thập thông tin cá nhân và kỹ thuật:",
+        "direct_title": "Bạn cung cấp trực tiếp:",
+        "direct_list": {
+          "1": "Tên và địa chỉ email",
+          "2": "Thông tin tài khoản"
+        },
+        "auto_title": "Thu thập tự động:",
+        "auto_list": {
+          "1": "Địa chỉ IP, loại trình duyệt, thiết bị",
+          "2": "Hành vi điều hướng thông qua cookie"
+        },
+        "sdk_title": "Qua các SDK bên thứ ba:",
+        "sdk_list": {
+          "1": "Dữ liệu tích hợp và cập nhật",
+          "2": "Thông tin dịch vụ với sự đồng ý của bạn"
+        }
+      },
+      "3": {
+        "title": "3. Cách Chúng Tôi Sử Dụng Thông Tin Của Bạn",
+        "content": "Chúng tôi sử dụng dữ liệu của bạn để:",
+        "list": {
+          "1": "Xác thực người dùng và quản lý tài khoản",
+          "2": "Xử lý và cung cấp dịch vụ",
+          "3": "Cải thiện chất lượng nền tảng",
+          "4": "Gửi các thông báo quan trọng",
+          "5": "Nâng cao trải nghiệm người dùng",
+          "6": "Phát triển tính năng mới",
+          "7": "Tuân thủ nghĩa vụ pháp lý và bảo vệ quyền lợi"
+        }
+      },
+      "4": {
+        "title": "4. Chia Sẻ Dữ Liệu Với Bên Thứ Ba",
+        "content": "Chúng tôi chia sẻ dữ liệu với các đối tác đáng tin cậy:",
+        "service_title": "Nhà cung cấp dịch vụ:",
+        "service_value": "Đối tác giao hàng và thực hiện",
+        "cloud_title": "Nhà cung cấp đám mây:",
+        "cloud_value": "Dịch vụ hosting và lưu trữ",
+        "payment_title": "Bên thanh toán:",
+        "payment_value": "Xử lý thanh toán an toàn",
+        "support_title": "Công cụ hỗ trợ:",
+        "support_value": "Nền tảng dịch vụ khách hàng",
+        "analytics_title": "Phân tích:",
+        "analytics_value": "Chỉ khi bạn đồng ý",
+        "legal_title": "Yêu cầu pháp lý:",
+        "legal_value": "Chúng tôi tuân thủ các nghĩa vụ pháp lý",
+        "important_label": "Quan trọng:",
+        "important_value": "Chúng tôi không bán hoặc cho thuê dữ liệu của bạn."
+      },
+      "5": {
+        "title": "5. Quyền Của Người Dùng",
+        "content": "Bạn có toàn quyền kiểm soát dữ liệu của mình. Bạn có thể:",
+        "list": {
+          "1": "Yêu cầu truy cập vào dữ liệu của bạn",
+          "2": "Yêu cầu chúng tôi chỉnh sửa dữ liệu không chính xác",
+          "3": "Yêu cầu xóa dữ liệu",
+          "4": "Rút lại sự đồng ý cho marketing",
+          "5": "Yêu cầu di chuyển dữ liệu",
+          "6": "Gửi khiếu nại"
+        },
+        "contact_label": "Để thực hiện các quyền này, gửi email đến:",
+        "contact_value": "support@example.com"
+      },
+      "6": {
+        "title": "6. Lưu Trữ, Bảo Mật & Lưu Giữ Dữ Liệu",
+        "security_title": "Biện pháp bảo mật:",
+        "security_list": {
+          "1": "Tất cả dữ liệu được mã hóa trong quá trình truyền tải và lưu trữ",
+          "2": "Hệ thống được bảo mật bằng MFA và kiểm soát truy cập",
+          "3": "Chỉ nhân viên được ủy quyền mới truy cập dữ liệu nhạy cảm"
+        },
+        "storage_title": "Nơi lưu trữ dữ liệu:",
+        "storage_list": {
+          "1": "Máy chủ đám mây (khu vực an toàn)",
+          "2": "Mạng phân phối tối ưu"
+        },
+        "retention_title": "Thời gian lưu giữ:",
+        "retention_list": {
+          "1": "Chúng tôi chỉ giữ dữ liệu trong thời gian cần thiết",
+          "2": "Dữ liệu có thể được giữ lại tạm thời sau khi đóng tài khoản",
+          "3": "Bạn có thể yêu cầu xóa bất cứ lúc nào"
+        }
+      },
+      "7": {
+        "title": "7. Cookie & Công Nghệ Theo Dõi",
+        "content": "Chúng tôi sử dụng cookie để cải thiện trải nghiệm của bạn:",
+        "necessary_title": "Cookie thiết yếu",
+        "necessary_value": "Chức năng cơ bản của trang",
+        "performance_title": "Cookie hiệu suất",
+        "performance_value": "Phân tích sử dụng trang",
+        "functional_title": "Cookie chức năng",
+        "functional_value": "Lưu tùy chọn",
+        "targeting_title": "Cookie mục tiêu",
+        "targeting_value": "Hiển thị nội dung liên quan",
+        "control_title": "Cách kiểm soát Cookie:",
+        "control_value": "Bạn có thể quản lý cookie qua cài đặt trình duyệt."
+      },
+      "8": {
+        "title": "8. Cập Nhật Chính Sách",
+        "content": "Chính sách Bảo mật này có thể được cập nhật khi dịch vụ của chúng tôi phát triển. Kiểm tra trang này thường xuyên."
+      },
+      "9": {
+        "title": "9. Thông Tin Liên Hệ",
+        "content": "Nếu bạn có câu hỏi, liên hệ:",
+        "email": "Email:",
+        "company": "Công ty: Tên Nền Tảng LLC"
+      }
+    }
+  },
+  "UserGuide": {
+    "title": "Hướng Dẫn Sử Dụng",
+    "subtitle": "Tìm hiểu cách sử dụng nền tảng một cách hiệu quả",
+    "searchPlaceholder": "Tìm hướng dẫn...",
+    "sidebar": {
+      "new_features": "Tính Năng Mới",
+      "tiktok": "Tính Năng Chính",
+      "research": "Nghiên Cứu",
+      "settings": "Cài Đặt"
+    },
+    "sections": {
+      "new_features": {
+        "ai_design": {
+          "title": "Thiết Kế AI",
+          "content": "Nội dung đang được cập nhật.\\n\\nLorem ipsum dolor sit amet, consectetur adipiscing elit."
+        },
+        "fulfillment": {
+          "title": "Tự Động Hóa",
+          "content": "Nội dung đang được cập nhật.\\n\\nLorem ipsum dolor sit amet, consectetur adipiscing elit."
+        }
+      },
+      "tiktok": {
+        "tiktok_store": {
+          "title": "Thiết Lập Tài Khoản",
+          "subsections": {
+            "connect_store": {
+              "title": "Kết Nối Tài Khoản",
+              "content": "Chào bạn! Hướng dẫn này sẽ giúp bạn kết nối tài khoản.\\n\\n**1. Trước Khi Bắt Đầu**\\n\\nVui lòng chuẩn bị:\\n\\n- Tài khoản đang hoạt động\\n- Trình duyệt đã đăng nhập\\n- Thông tin đăng nhập nền tảng\\n\\n**2. Quy Trình Kết Nối**\\n\\n**Bước 1: Đăng nhập**\\n\\nTruy cập trang chủ nền tảng và đăng nhập.\\n\\n**Bước 2: Lấy Link Kết Nối**\\n\\n- Trong Bảng điều khiển, chọn menu Tài khoản\\n- Nhấn nút **Kết nối Tài khoản**\\n- Hệ thống sẽ tạo link an toàn\\n\\n**Bước 3: Ủy Quyền Truy Cập**\\n\\n- Mở trình duyệt của bạn\\n- Điều hướng đến link được cung cấp\\n- Chấp nhận yêu cầu ủy quyền\\n\\n**Bước 4: Hoàn Tất Thiết Lập**\\n\\n- Sao chép mã xác minh\\n- Quay lại bảng điều khiển\\n- Dán mã để hoàn tất\\n\\n**3. Câu Hỏi Thường Gặp**\\n\\nQ: Điều này có an toàn không?\\nA: Hoàn toàn. Chúng tôi sử dụng kết nối an toàn, đã xác minh.\\n\\nQ: Tôi có thể kết nối bao nhiêu tài khoản?\\nA: Hỗ trợ không giới hạn tài khoản.\\n\\nQ: Nếu gặp lỗi thì sao?\\nA: Liên hệ đội ngũ hỗ trợ để được trợ giúp."
+            },
+            "manage_store": {
+              "title": "Quản Lý Tài Khoản",
+              "content": "Nội dung đang được cập nhật.\\n\\nHướng dẫn quản lý tài khoản của bạn."
+            }
+          }
+        },
+        "tiktok_upload": {
+          "title": "Tải Lên",
+          "content": "Nội dung đang được cập nhật.\\n\\nTải lên các mục nhanh chóng và hiệu quả."
+        },
+        "tiktok_product": {
+          "title": "Mục",
+          "content": "Nội dung đang được cập nhật.\\n\\nQuản lý các mục của bạn."
+        },
+        "tiktok_order": {
+          "title": "Đơn Hàng",
+          "content": "Nội dung đang được cập nhật.\\n\\nTheo dõi và xử lý đơn hàng."
+        }
+      },
+      "research": {
+        "auto_crawler": {
+          "title": "Trích Xuất Tự Động",
+          "content": "Nội dung đang được cập nhật.\\n\\nTự động thu thập thông tin từ nhiều nguồn."
+        },
+        "search": {
+          "title": "Tìm Kiếm",
+          "content": "Nội dung đang được cập nhật.\\n\\nTìm kiếm và phân tích cơ hội."
+        },
+        "template": {
+          "title": "Mẫu",
+          "content": "Nội dung đang được cập nhật.\\n\\nQuản lý và sử dụng các mẫu."
+        },
+        "mockup": {
+          "title": "Mockup",
+          "content": "Nội dung đang được cập nhật.\\n\\nTạo mockup chuyên nghiệp."
+        },
+        "artworks": {
+          "title": "Tác Phẩm",
+          "content": "Nội dung đang được cập nhật.\\n\\nQuản lý thư viện thiết kế của bạn."
+        }
+      },
+      "settings": {
+        "settings": {
+          "title": "Cài Đặt",
+          "content": "Nội dung đang được cập nhật.\\n\\nCấu hình cài đặt tài khoản của bạn."
+        },
+        "team": {
+          "title": "Nhóm",
+          "content": "Nội dung đang được cập nhật.\\n\\nQuản lý thành viên nhóm và quyền hạn."
+        },
+        "billing": {
+          "title": "Thanh Toán",
+          "content": "Nội dung đang được cập nhật.\\n\\nQuản lý thanh toán và gói dịch vụ của bạn."
+        }
+      }
+    }
+  }
+}
